@@ -1,0 +1,68 @@
+.logoText {
+    height: 30px;
+    cursor: pointer;
+    margin-left: 60px;
+    position: absolute;
+    z-index: 1;
+}
+
+.header {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header_menu {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow: 2;
+}
+
+.stake_drop {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.stake_drop>img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.stake_drop:hover {
+    color: #ff7171;
+}
+
+@media (min-width: 1400px) {
+    .header {
+        max-width: 1400px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 740px) {
+    .header {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .logoText {
+        position: relative;
+        margin: 0px 0px 20px 0px;
+    }
+}
