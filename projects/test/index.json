@@ -1,0 +1,11 @@
+{
+    "name": "TestSwap",
+    "image": "test.png",
+    "type": "Contracts",
+    "contact_id": 2,
+    "state": 0,
+    "twitter_link": "twitter.com",
+    "tg_link": "t.me/aaa",
+    "github_link": "https://github.com/",
+    "address": "0xAFOJFIFJIFH"
+}
